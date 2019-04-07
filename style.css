@@ -48,6 +48,11 @@ html {
     src: url('./fonts/Goldoni_DEMO.otf');
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-Medium.ttf');
+}
+
 nav {
     position: fixed;
     top: 0%;
@@ -149,7 +154,7 @@ img {
 #section1 h1 {
     color: white;
     font-size: 50px;
-    font-family: Arial serif;
+    font-family: Roboto;
 }
 
 #section1 h3 {
@@ -162,8 +167,8 @@ img {
     margin-top: 20px;
     padding: 15px;
     width: 200px;
-    border: 2px solid white;
-    background: transparent;
+    border: 2px solid #7e0028a9;
+    background: #7e0028a9;
     color: white;
     font-weight: 600;
     border-radius: 30px;
@@ -174,7 +179,8 @@ img {
 }
 
 #section1 button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #7e0028a9;
+    background-color: rgba(255, 255, 255, 0.87);
     transform: scale(1.03);
 }
 
@@ -197,10 +203,10 @@ img {
 }
 
 #section2 h3 {
-    font-family: Arial serif;
+    font-family: Roboto;
     color: black;
-    font-size: 2vh;
-    line-height: 22px;
+    font-size: 1.7vh;
+    line-height: 3vh;
     width: 600px;
     margin: 20px 0;
     text-align: left;
@@ -246,9 +252,10 @@ img {
 #section4 h3 {
     width: 70%;
     margin: 20px auto;
-    font-family: Arial serif;
+    font-family: Roboto;
     text-align: left;
-    font-size: 2vh !important;
+    font-size: 1.7vh;
+    line-height: 3vh;
 }
 
 #section4 .bg {
@@ -304,8 +311,8 @@ img {
     height: calc(40% - 75px);
     overflow: hidden;
     text-overflow: ellipsis;
-    font-family: Arial serif;
-    font-size: 2vh;
+    font-family: Roboto;
+    font-size: 1.7vh;
     padding: 3vh 20px;
 }
 
@@ -348,7 +355,7 @@ img {
 #section5 h3 {
     position: absolute;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     left: 0;
     right: 0;
     top: 0;
@@ -375,7 +382,7 @@ img {
 
 #section6 h3 {
     text-align: center;
-    font-family: Arial serif;
+    font-family: Roboto;
 }
 
 #section6 .categories {
@@ -398,6 +405,7 @@ img {
     cursor: pointer;
     transition: 0.4s;
     border-color: var(--subtitle-color);
+    font-family: Roboto;
 }
 
 #section6 .content .name:hover {
@@ -638,16 +646,15 @@ footer {
     width: 600px;
     margin: 0 auto;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     text-align: center;
 }
 
 #section3 .layout {
     border: 20x solid black;
-    background: black;
+    background: rgba(0, 0, 0, 0.575);
     padding: 50px;
     padding-top: none;
-    opacity: 0.8;
 }
 
 .fa {
@@ -688,6 +695,14 @@ footer {
     border-bottom-left-radius: 0;
     color: black;
     padding-top: 50px;
+    font-family: Roboto !important;
+    font-size: 1.7vh !important;
+}
+
+#section10 #left h3 {
+    font-family: Roboto;
+    font-size: 3vh;
+    padding: 2vh 0;
 }
 
 #section10 #right {
@@ -709,30 +724,34 @@ footer {
 
 #section10 h4 {
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 2vh;
+    font-size: 2vh;
 }
 
 #section10 .position {
-    padding: 10px;
+    padding: 1vh;
 }
 
 #section10 .position .title {
-    font-size: 20px;
+    font-size: 2vh;
     margin-bottom: 5px;
     font-weight: 800;
 }
 
 #section10 .position .descrpit {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
+    font-size: 1.5vh;
 }
 
 #section10 p {
-    padding: 20px 0;
+    padding: 1vh 0;
+    font-family: Roboto;
+    font-weight: 100;
 }
 
 #lochref {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     color: white;
     margin-right: 20px;
+    text-decoration: none;
 }
